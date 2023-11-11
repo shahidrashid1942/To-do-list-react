@@ -1,5 +1,4 @@
 body {
-  /* background-color: #ffeaa7; */
   background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
   min-height: 70vh;
   padding: 1rem;
@@ -19,17 +18,6 @@ body {
   min-height: 500px;
   max-width: 500px;
   min-width: 250px;
-  /* background: #f1f5f8;
-  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
-  background-size: 25px 25px; */
-
-  /* background-color: #e5e5f7;
-  opacity: 0.8;
-  background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
-  background-position: 0 0, 10px 10px;
-  background-size: 20px 20px; */
-
-  z-index: 1;
   --s: 150px;
   --_g: #0000 90deg, #046d8b 0;
   background: conic-gradient(from 116.56deg at calc(100%/3) 0 ,var(--_g)),
