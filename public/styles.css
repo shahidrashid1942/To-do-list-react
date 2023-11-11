@@ -89,14 +89,12 @@ li {
 
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  overflow: hidden;
+  position: relative;
 }
 
-.footer p {
-  width: 100%;
-  text-align: center;
+.footer>p {
+ position: fixed;
+  bottom: 0;
   margin: auto;
   font-size: 1rem;
   color: #ccc;
