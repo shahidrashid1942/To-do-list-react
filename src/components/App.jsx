@@ -51,7 +51,9 @@ function App() {
       </div>
 
       <div className="footer">
+        <a href="https://github.com/shahidrashid1942">
         <p>&#169;2023 Shahid Rashid</p>
+          </a>
       </div>
     </div>
   );
