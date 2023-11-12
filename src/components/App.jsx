@@ -26,6 +26,8 @@ function App() {
     });
   }
 
+  const date = new Date().getFullYear();
+
   return (
     <div className="container">
       <div className="heading">
@@ -52,7 +54,7 @@ function App() {
 
       <div className="footer">
         <a href="https://github.com/shahidrashid1942">
-        <p>&#169;2023 Shahid Rashid</p>
+        <p>&#169;{date} Shahid Rashid</p>
           </a>
       </div>
     </div>
