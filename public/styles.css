@@ -81,12 +81,20 @@ button span:hover {
   transform: translateY(3px);
 }
 
-li {
+.todoItem li p {
   text-align: left;
   position: relative;
-  padding: 0.5rem;
 }
 
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todoItem:hover {
+  cursor: pointer;
+}
 
 .footer {
   position: relative;
@@ -98,7 +106,4 @@ li {
   margin: auto;
   font-size: 1rem;
   color: #ccc;
-}
-.todoItem:hover {
-  cursor: pointer;
 }
