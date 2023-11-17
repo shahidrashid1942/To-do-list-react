@@ -1,4 +1,5 @@
 import React from "react";
+import AddIcon from "@mui/icons-material/Add";
 
 function InputArea(props) {
   return (
@@ -7,7 +8,9 @@ function InputArea(props) {
         props.handleChange(event)
       }} type="text" value={props.inputText} />
       <button onClick={props.addItem}>
-        <span>Add</span>
+      <span>
+        <AddIcon />
+        </span>
       </button>
     </div>
   );
