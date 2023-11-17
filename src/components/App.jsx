@@ -28,8 +28,6 @@ function App() {
     });
   }
 
-
-
   return (
     <div className="container">
       <div className="heading">
@@ -54,7 +52,6 @@ function App() {
         </ul>
       </div>
       <Footer />
-      
     </div>
   );
 }
