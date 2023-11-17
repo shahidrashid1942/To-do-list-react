@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import DeleteIcon from "@mui/icons-material/Delete"
 
 function ToDoItem(props) {
 
@@ -16,12 +17,11 @@ function ToDoItem(props) {
       onClick={lineThrough}
       style={{textDecoration: isLineThrough && "line-through"}}
       >{props.text}</li>
-      
-      <p
+      <DeleteIcon 
       onClick={() => {
         props.onChecked(props.id);
       }}
-      >D</p>
+      />
     </div>
   );
 }
