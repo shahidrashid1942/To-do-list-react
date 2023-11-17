@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import ToDoItem from "./ToDoItem";
 import InputArea from "./InputArea";
+import Footer from "./Footer";
+
 
 function App() {
   const [inputText, setInputText] = useState("");
@@ -26,15 +28,17 @@ function App() {
     });
   }
 
+
+
   return (
     <div className="container">
       <div className="heading">
         <h1>To-Do List</h1>
       </div>
       <InputArea
-      handleChange={handleChange}
-      inputText={inputText}
-      addItem={addItem}
+        handleChange={handleChange}
+        inputText={inputText}
+        addItem={addItem}
 
       />
       <div>
@@ -49,10 +53,8 @@ function App() {
           ))}
         </ul>
       </div>
-
-      <div className="footer">
-        <p>&#169;2023 Shahid Rashid</p>
-      </div>
+      <Footer />
+      
     </div>
   );
 }
